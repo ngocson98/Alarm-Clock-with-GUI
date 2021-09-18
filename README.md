@@ -54,29 +54,29 @@ This project requires good knowledge of Python and GUI (Graphic User Interface).
 + winsound.SND_ASYNC plays the system generated sound as soon the condition satisfies, acting as a reminder for the alarm clock.
 
 ### 3. Create GUI using Tkinter
-   clock = Tk()
+    clock = Tk()
 
-   clock.title("DataFlair Alarm Clock")
-   clock.geometry("400x200")
-   time_format=Label(clock, text="Enter time in 24 hour format!", fg="red",bg="black",font="Arial").place(x=60,y=120)
-   addTime = Label(clock,text="Hour Min Sec",font=60).place(x = 110)
-   setYourAlarm = Label(clock,text="When to wake you up",fg="blue",relief="solid",font=("Helevetica",7,"bold")).place(x=0, y=29)
+    clock.title("DataFlair Alarm Clock")
+    clock.geometry("400x200")
+    time_format=Label(clock, text="Enter time in 24 hour format!", fg="red",bg="black",font="Arial").place(x=60,y=120)
+    addTime = Label(clock,text="Hour Min Sec",font=60).place(x = 110)
+    setYourAlarm = Label(clock,text="When to wake you up",fg="blue",relief="solid",font=("Helevetica",7,"bold")).place(x=0, y=29)
 
-   #The Variables we require to set the alarm(initialization):
-   hour = StringVar()
-   min = StringVar()
-   sec = StringVar()
+    #The Variables we require to set the alarm(initialization):
+    hour = StringVar()
+    min = StringVar()
+    sec = StringVar()
 
-   #Time required to set the alarm clock:
-   hourTime= Entry(clock,textvariable = hour,bg = "pink",width = 15).place(x=110,y=30)
-   minTime= Entry(clock,textvariable = min,bg = "pink",width = 15).place(x=150,y=30)
-   secTime = Entry(clock,textvariable = sec,bg = "pink",width = 15).place(x=200,y=30)
+    #Time required to set the alarm clock:
+    hourTime= Entry(clock,textvariable = hour,bg = "pink",width = 15).place(x=110,y=30)
+    minTime= Entry(clock,textvariable = min,bg = "pink",width = 15).place(x=150,y=30)
+    secTime = Entry(clock,textvariable = sec,bg = "pink",width = 15).place(x=200,y=30)
 
-   #To take the time input by user:
-   submit = Button(clock,text="Set Alarm",fg="red",width = 10,command = actual_time).place(x =110,y=70)
+    #To take the time input by user:
+    submit = Button(clock,text="Set Alarm",fg="red",width = 10,command = actual_time).place(x =110,y=70)
 
-   clock.mainloop()
-   #Execution of the window.
+    clock.mainloop()
+    #Execution of the window.
    
 #### Explanation:
 + To Initialize tkinter, we pass a command under the name clock as Tk().
@@ -90,4 +90,4 @@ This project requires good knowledge of Python and GUI (Graphic User Interface).
 # OUTPUT
 ![alarm-clock-run-program](https://user-images.githubusercontent.com/87347502/133872112-fc4d6f04-7d4f-4e97-805b-1c0218ac8f9f.png)
 # Summary
-With this project in Python, we have successfully made the Alarm Clock. We used the popular GUI library for rendering graphics on a display window. We learned how to extract the current time from the computer and to use it for manipulation using the DateTime library. This way we can set an alarm in the computer interface using python programming which rings with the default machine sound for Windows.
+    With this project in Python, we have successfully made the Alarm Clock. We used the popular GUI library for rendering graphics on a display window. We learned how to extract the current time from the computer and to use it for manipulation using the DateTime library. This way we can set an alarm in the computer interface using python programming which rings with the default machine sound for Windows.
