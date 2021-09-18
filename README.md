@@ -90,4 +90,6 @@ This project requires good knowledge of Python and GUI (Graphic User Interface).
 # OUTPUT
 ![alarm-clock-run-program](https://user-images.githubusercontent.com/87347502/133872112-fc4d6f04-7d4f-4e97-805b-1c0218ac8f9f.png)
 # Summary
-    With this project in Python, we have successfully made the Alarm Clock. We used the popular GUI library for rendering graphics on a display window. We learned how to extract the current time from the computer and to use it for manipulation using the DateTime library. This way we can set an alarm in the computer interface using python programming which rings with the default machine sound for Windows.
+With this project in Python, we have successfully made the Alarm Clock. We used the popular GUI library for rendering graphics on a display window. We learned how to extract the current time from the computer and to use it for manipulation using the DateTime library. This way we can set an alarm in the computer interface using python programming which rings with the default machine sound for Windows.
+
+### Thank you!
