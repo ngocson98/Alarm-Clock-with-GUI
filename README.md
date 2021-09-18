@@ -55,7 +55,7 @@ This project requires good knowledge of Python and GUI (Graphic User Interface).
 ### 3. Create GUI using Tkinter
     clock = Tk()
 
-    clock.title("DataFlair Alarm Clock")
+    clock.title("Alarm Clock")
     clock.geometry("400x200")
     time_format=Label(clock, text="Enter time in 24 hour format!", fg="red",bg="black",font="Arial").place(x=60,y=120)
     addTime = Label(clock,text="Hour Min Sec",font=60).place(x = 110)
